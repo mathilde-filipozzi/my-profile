@@ -1,0 +1,164 @@
+@import url("photogallery.css");
+
+/*Colors and fonts */
+body{
+	background-color: white;
+	color: #005086;
+	font-family: 'Commissioner', sans-serif;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Coustard', serif;
+}
+
+h1 {
+	color: rgb(210, 64, 83);
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+	color: #318fb5;
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h3 {
+	color: #318fb5;
+    font-size: 18px;
+}
+
+h4 {
+	color: #005086;
+    font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: #005086;
+}
+a:hover {
+	color: #794c74;
+}
+
+/*general*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.block {
+	margin: 60px auto;
+    width: 700px;
+    padding: 50px;
+    background: #b0cac7;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+
+/*Hello I'm Mathilde*/
+#profile {
+	width: 169px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*My travels*/
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    height: 206px;
+    flex-grow: 1;
+    background-color: none;
+}
+
+#cardasia {
+  background-image: url(images/asia.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.button {
+  background-color: white;
+  opacity: 70%;
+  padding: 15px 20px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-family: 'Coustard', serif;
+  transition: 0.3s;
+}
+.button:hover {opacity: 0.6}
+
+#cardeurope {
+  background-image: url(images/europe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.row {margin: 90px -90px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*My workouts*/
+img.alignCenter{
+	display: block;
+	margin:  auto;
+	width: 200px;
+}
+
+.sport {
+	width: 300px;
+    height: 206px;
+}
+
+
+/*Follow me*/
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+/*Responsive design*/
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
